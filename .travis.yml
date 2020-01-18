@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - "1.13.x"
+  - master
+
+script:
+  - go get -v
+  - get test -v
