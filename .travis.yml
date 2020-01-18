@@ -8,6 +8,6 @@ sudo: required
 
 script:
   - go env -w GO111MODULE=on
-  - go get -v github.com/gorilla/websocket
-  - get test -v ./...
+  - go get -v
+#  - get test -v ./...
   - go build
