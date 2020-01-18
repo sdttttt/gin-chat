@@ -9,5 +9,6 @@ sudo: required
 script:
   - go env -w GO111MODULE=on
   - go get -v
+  - make test
 #  - get test -v ./...
   - go build
